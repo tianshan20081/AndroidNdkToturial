@@ -1,2 +1,2 @@
-# AndroidNdkToturial
-AndroidNdkToturial
+# AndroidNdkTutorial
+AndroidNdkTutorial
