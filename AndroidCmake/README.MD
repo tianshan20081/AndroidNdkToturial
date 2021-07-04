@@ -1,0 +1,16 @@
+# Android CMake
+
+使用 Android Cmake 项目集成 SO 文件库
+### 下载 fmod
+https://d2m8b09s60for2.cloudfront.net/fmodstudio/api/Android/fmodstudioapi20201android.tar.gz?Expires=1625383302&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMm04YjA5czYwZm9yMi5jbG91ZGZyb250Lm5ldC9mbW9kc3R1ZGlvL2FwaS9BbmRyb2lkL2Ztb2RzdHVkaW9hcGkyMDIwMWFuZHJvaWQudGFyLmd6IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjI1MzgzMzAyfX19XX0_&Signature=V0p~H2nKNc~ARpFT1qy0pdGukyX8Zup5Sii-TOrPxFePxs-pXAgpXpHA46NoirZOiOgnXntPd0sKV-d-kLAlNynwqQecXzU6aIfEItO9wsIMf0R67Utt0WCFQzR-xmP6ql4M5gSWGc3ixBBXiZPxKIyTAFQBbfzK~~qTSp7tD0y0s9PUM8a7YDhW~8yBwIT3uGa-C3q16WL7smPENH5qOGcgAaJbogqBFhFf1KwDVB534vmSfTtVVudUQAbiIixSLianYm2K4R-uM4-1277J0BjpvYTj2nAlavECP3nXyBZmHjLhV3nO9BqDpmORq1WOScWEx8FqNURHUnRdySyfKw__&Key-Pair-Id=APKAJ4WISJ3BQB7EL4AA
+
+版本号 2.02 Android 版本
+
+
+### 引入头文件 inc 目录
+`fmodstudioapi20201android/api/core/inc`
+
+
+### CMakeListxts.txt 依赖 fmod 下面 so 库
+
+
