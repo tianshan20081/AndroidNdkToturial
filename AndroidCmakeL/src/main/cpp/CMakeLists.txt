@@ -21,10 +21,10 @@ if (${DEPS_A})
     target_link_libraries(native-lib x264 log)
 ELSE ()
     # 1. 加载 SO 不需要依赖
-    # 2. 需要将 X264.so 拷贝到 jniLibs/${CMAKE_ANDROID_ARCH_ABI}/
+    # 2. 需要将 x264.so 拷贝到 jniLibs/${CMAKE_ANDROID_ARCH_ABI}/
     # 2. 需要执行 System.loadLibray("x264")
     #    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -L${CMAKE_SOURCE_DIR}/x264/jniLibs/${CMAKE_ANDROID_ARCH_ABI}")
-
+    #    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -L${CMAKE_SOURCE_DIR}/../../../jniLibs/${CMAKE_ANDROID_ARCH_ABI}")
     # 设置依赖的库（第一个参数为目标文件，顺序不能变）
     target_link_libraries(native-lib log)
 ENDIF ()
