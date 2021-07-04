@@ -1,0 +1,3 @@
+include ':AndroidMK'
+//include ':app'
+rootProject.name = "AndroidNdkToturial"
