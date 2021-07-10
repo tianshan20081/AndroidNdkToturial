@@ -1,4 +1,6 @@
 //include ':AndroidMK'
 //include ':app'
-include ':AndroidCmake'
+//include ':AndroidCmake'
+//include ':AndroidCmakeL'
+include ':AndroidCmakeDepSo'
 rootProject.name = "AndroidNdkTutorial"
